@@ -1,4 +1,4 @@
-##  Angular login using facebook and google
+##  laravel test with ajax pagination,scrolling,sorting
 # Contributors: charanpreet singh
 # donate link : http://www.bytesultra.com/
 
