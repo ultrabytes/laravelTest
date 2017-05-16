@@ -42,7 +42,7 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 #### NOCAPTCHA_SITEKEY=XXXXXXXXXX
 
 
-## Now hit the url iwth your directory (/public) and ready to use
+## Now hit the url with your directory (/public) and ready to use
 
 ## Admin url  : yourProject/admin/login
 
