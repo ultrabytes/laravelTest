@@ -15,8 +15,6 @@
  *
  ********************************************************************************/
  -->
-
-{{$allReviews->links()}}
 @extends('admin.layout.loginApp')
 @section('content') 
 
