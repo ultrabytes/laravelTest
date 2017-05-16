@@ -26,7 +26,7 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 #### e.g 
 #### DB_CONNECTION=mysql
 #### DB_HOST=127.0.0.1
-####DB_PORT=3306
+#### DB_PORT=3306
 #### DB_DATABASE=reviews
 #### DB_USERNAME=root
 
@@ -35,10 +35,7 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 
 
 
-admin url  : yourProject/admin/login
 
-email :admin@example.com
-password :123456
 
 ## 7 Need to update the key and secret of nocaptcha by making api from google .
 #### NOCAPTCHA_SECRET=XXXXXXXXXXX
@@ -46,6 +43,11 @@ password :123456
 
 
 ## Now hit the url iwth your directory (/public) and ready to use
+
+## Admin url  : yourProject/admin/login
+
+#### email :admin@example.com
+#### password :123456
 
 ---------------------------------------FrontEnd work flow---------------------------------
 ## Creating Reviews 
