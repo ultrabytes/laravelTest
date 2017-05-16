@@ -19,7 +19,7 @@ class CreateReviewTable extends Migration
             $table->string('email', 200);
             $table->text('description');
             $table->string('ipAddress', 50); // ipv6 support
-            $table->tinyInteger('status');
+            $table->tinyInteger('status')->default('0');
             $table->timestamps();
         });
     }
