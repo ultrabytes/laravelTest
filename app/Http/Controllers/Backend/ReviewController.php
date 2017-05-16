@@ -1,4 +1,5 @@
-<!--
+<?php
+namespace App\Http\Controllers\Backend;
 /********************************************************************************
  * laravel With ajax 
  *********************************************************************************
@@ -14,12 +15,6 @@
  * included license.txt file.
  *
  ********************************************************************************/
- -->
-
-<?php
-
-namespace App\Http\Controllers\Backend;
-
 use Illuminate\Http\Request;
 use App\Reviews;
 use App\Http\Controllers\Controller;

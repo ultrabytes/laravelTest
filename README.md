@@ -17,14 +17,11 @@ steps to install the project
 
 #1  get the clone of the repository in your working directory
 
-i.e. your working directory path > git init 
-git clone  https://example@bitbucket.org/bit_username/laravelTest.git
+i.e. your working directory path > git clone  https://example@bitbucket.org/bit_username/laravelTest.git
 
-#2 Run command -cd move
+#2 Run command - composer install 
 
-#3 Run command - composer install 
-
-#4 Then create or copy the .env file on root and edit with database credentials
+#3 Then create or copy the .envExamples file on root and edit with database credentials
 
 e.g 
 DB_CONNECTION=mysql
@@ -34,19 +31,21 @@ DB_DATABASE=reviews
 DB_USERNAME=root
 
 
-#5 Run command - php artisam migrate 
+#4 Run command -php artisan migrate:refresh --seed
 
-#6 Run command - php artisan db:seed
 
 
 admin url  : yourProject/admin/login
 
-email :admin@emxample.com
+email :admin@example.com
 password :123456
 
-#7 need to update the key and secret of nocaptcha
+## 7 Need to update the key and secret of nocaptcha by making api from google .
 NOCAPTCHA_SECRET=XXXXXXXXXXX
 NOCAPTCHA_SITEKEY=XXXXXXXXXX
+
+
+## Now hit the url iwth your directory (/public) and ready to use
 
 ---------------------------------------FrontEnd work flow---------------------------------
 ## Creating Reviews 
