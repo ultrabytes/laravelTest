@@ -1,0 +1,25 @@
+
+.ajax-load{
+
+		    padding: 10px 0px;
+
+		    width: 100%;
+
+  		}
+	tbody tr {
+    height: 100px;
+	}
+
+
+
+a.btn.btn-info {
+    margin: 0 0 10px;
+}
+
+.name h3 {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+#alert p {
+    padding: 10px;
+}
