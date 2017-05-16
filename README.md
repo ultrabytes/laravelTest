@@ -1,6 +1,6 @@
 ##  laravel test with ajax pagination,scrolling,sorting
 # Contributors: charanpreet singh
-# donate link : http://www.bytesultra.com/
+# Donate link : http://www.bytesultra.com/
 
 ##  Purpoese of this Project 
 This application  just for simple laravel test with creating of reviews and listed recent review with scroll pagination on frontend , after appproving all reviews from backend .In backend used the ajax sorting ,ajax pagination .
@@ -23,12 +23,12 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 
 #3 Then create or copy the .envExamples file on root and edit with database credentials
 
-e.g 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=reviews
-DB_USERNAME=root
+#### e.g 
+#### DB_CONNECTION=mysql
+#### DB_HOST=127.0.0.1
+####DB_PORT=3306
+#### DB_DATABASE=reviews
+#### DB_USERNAME=root
 
 
 #4 Run command -php artisan migrate:refresh --seed
@@ -41,8 +41,8 @@ email :admin@example.com
 password :123456
 
 ## 7 Need to update the key and secret of nocaptcha by making api from google .
-NOCAPTCHA_SECRET=XXXXXXXXXXX
-NOCAPTCHA_SITEKEY=XXXXXXXXXX
+#### NOCAPTCHA_SECRET=XXXXXXXXXXX
+#### NOCAPTCHA_SITEKEY=XXXXXXXXXX
 
 
 ## Now hit the url iwth your directory (/public) and ready to use
@@ -77,7 +77,7 @@ then insert the username and password after successfully login it will redirect 
 
 you can approve them by click on 'confirm' button and can  disapprove them by click on 'confirmed' button 
 
-after approving it i will display on 'recnet reviews section' on frontend 
+after approving it i will display on 'recent reviews section' on frontend 
 
 In reviews page listed the 20 records per page and added the ajax pagination for it 
 
