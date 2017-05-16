@@ -19,9 +19,10 @@ steps to install the project
 
 i.e. your working directory path > git clone  https://example@bitbucket.org/bit_username/laravelTest.git
 
-#2 Run command - composer install 
+# 2 open your directory by > cd LaravelTest
+# 3 Run command - composer install 
 
-#3 Then create .env or copy the .envExamples file on root and edit with database credentials
+# 4 Then create .env or copy the .envExamples file on root and edit with database credentials
 
 #### e.g 
 #### DB_CONNECTION=mysql
@@ -31,14 +32,14 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 #### DB_USERNAME=root
 #### DB_PASSWORD=
 
-
-#4 Run command -php artisan migrate:refresh --seed
-
-
+# 5 Run command -php artisan key:generate
+# 6 Run command -php artisan migrate:refresh --seed
 
 
 
-## 7 Need to update the key and secret of nocaptcha by making api from google .
+
+
+## 7 Need to update the key and secret of nocaptcha by making api from google (https://www.google.com/recaptcha/admin#list).
 #### NOCAPTCHA_SECRET=XXXXXXXXXXX
 #### NOCAPTCHA_SITEKEY=XXXXXXXXXX
 
