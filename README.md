@@ -1,5 +1,5 @@
 ##  laravel test with ajax pagination,scrolling,sorting
-# Contributors: charanpreet singh
+# Contributors: Charanpreet Singh
 # Donate link : http://www.bytesultra.com/
 
 ##  Purpoese of this Project 
@@ -29,6 +29,7 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 #### DB_PORT=3306
 #### DB_DATABASE=reviews
 #### DB_USERNAME=root
+#### DB_PASSWORD=
 
 
 #4 Run command -php artisan migrate:refresh --seed
