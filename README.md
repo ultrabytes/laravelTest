@@ -21,7 +21,7 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 
 #2 Run command - composer install 
 
-#3 Then create or copy the .envExamples file on root and edit with database credentials
+#3 Then create .env or copy the .envExamples file on root and edit with database credentials
 
 #### e.g 
 #### DB_CONNECTION=mysql
