@@ -32,8 +32,8 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 #### DB_USERNAME=root
 #### DB_PASSWORD=
 
-# 5 Run command -php artisan key:generate
-# 6 Run command -php artisan migrate:refresh --seed
+# 5 Run command - php artisan key:generate
+# 6 Run command - php artisan migrate:refresh --seed
 
 
 
