@@ -1,9 +1,9 @@
-====Angular login using facebook and google===
-Contributors: charanpreet singh
-donate link : http://www.bytesultra.com/
+##  Angular login using facebook and google
+# Contributors: charanpreet singh
+# donate link : http://www.bytesultra.com/
 
-Purpoese of this Project 
-This application  just for simple laravel test with creating of reviews and listed recent review with scroll pagination on frontend , after appproving alll reviews from backend .In backedn used the ajax sorting ,ajax pagination .
+##  Purpoese of this Project 
+This application  just for simple laravel test with creating of reviews and listed recent review with scroll pagination on frontend , after appproving all reviews from backend .In backend used the ajax sorting ,ajax pagination .
 
 
 ## About Laravel
@@ -62,7 +62,7 @@ listed the name ,description ,created date of reviews if they proved from the ba
 
 For This included the recentReviewData page in which declared all reviews
 
-## Scoll pagination 
+## Scroll pagination 
 
 Added the scroll pagination for further recent review up to 10 per page
 
