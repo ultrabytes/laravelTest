@@ -1,28 +1,27 @@
-##  laravel test with ajax pagination,scrolling,sorting
-# Contributors: Charanpreet Singh
-# Donate link : http://www.bytesultra.com/
+#   Laravel ajax review example with backend
+#   Contributors: Charanpreet Singh
+#   Demo link : http://166.62.80.110/laravelTest/public/
 
-##  Purpoese of this Project 
-This application  just for simple laravel test with creating of reviews and listed recent review with scroll pagination on frontend , after appproving all reviews from backend .In backend used the ajax sorting ,ajax pagination .
+##  Purpose of this Project 
+This application is creating ajax review with captcha feature. User can submit their review and it will be publish if admin confirm the review. This application is developed on Laravel and Bootstrap.
 
 
-## About Laravel
- You can Install the laravel from the link (https://laravel.com/docs/5.4/)
+### To know more about Laravel (https://laravel.com/docs/5.4/)
 
 
 
 
 -------------------------------------------------------------------------------------------------------------------
-steps to install the project 
+steps to setup the project 
 
 #1  get the clone of the repository in your working directory
 
-i.e. your working directory path > git clone  https://example@bitbucket.org/bit_username/laravelTest.git
+i.e. your working directory path > git clone  https://github.com/ultrabytes/laravelTest.git
 
-# 2 open your directory by > cd LaravelTest
+# 2 Move to your directory by > cd LaravelTest
 # 3 Run command - composer install 
 
-# 4 Then create .env or copy the .envExamples file on root and edit with database credentials
+# 4 Create .env file on root directory and edit with database credentials
 
 #### e.g 
 #### DB_CONNECTION=mysql
@@ -32,66 +31,18 @@ i.e. your working directory path > git clone  https://example@bitbucket.org/bit_
 #### DB_USERNAME=root
 #### DB_PASSWORD=
 
-# 5 Run command - php artisan key:generate
-# 6 Run command - php artisan migrate:refresh --seed
 
-
-
-
-
-## 7 Need to update the key and secret of nocaptcha by making api from google (https://www.google.com/recaptcha/admin#list).
+## 5 This application uses google captcha. You can generate the secret and key for captcha. (https://www.google.com/recaptcha/admin#list). 
 #### NOCAPTCHA_SECRET=XXXXXXXXXXX
 #### NOCAPTCHA_SITEKEY=XXXXXXXXXX
 
+# 6 Run command - php artisan key:generate
+# 7 Run command - php artisan migrate:refresh --seed
 
-## Now hit the url with your directory (/public) and ready to use
+## Now open the project on your browser (http://localhost/laravelTest/public) and ready to use
 
-## Admin url  : yourProject/admin/login
+## Admin url  : http://localhost/laravelTest/public/admin/login
 
 #### email :admin@example.com
 #### password :123456
-
----------------------------------------FrontEnd work flow---------------------------------
-## Creating Reviews 
-
-Create Form with Name ,Email ,Description and save it into database with ajax and client side validation
-
-save Method called from Frontend/ReviewController in laravel 
-
-## Listing recent reviews
-createReview  Method called from Frontend/ReviewController in laravel  
-
-listed the name ,description ,created date of reviews if they proved from the backend  according to created date Descending up to 10 per page
-
-For This included the recentReviewData page in which declared all reviews
-
-## Scroll pagination 
-
-Added the scroll pagination for further recent review up to 10 per page
-
--------------------------End frontEnd work flow-------------------------------------
-
--------------------------Start Backend work flow-------------------------------------
-
-Admin login url 
-
-youProjectUrl/admin/login
-
-then insert the username and password after successfully login it will redirect you reviews page where all reviews will listed 
-
-you can approve them by click on 'confirm' button and can  disapprove them by click on 'confirmed' button 
-
-after approving it i will display on 'recent reviews section' on frontend 
-
-In reviews page listed the 20 records per page and added the ajax pagination for it 
-
-You can sort the record by created date in both 'Ascending' and 'descending' order ,for this functionality used the ajax.
-
-
-
-
-
-
-
-
 
